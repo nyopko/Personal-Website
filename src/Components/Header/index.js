@@ -7,13 +7,12 @@ function Header() {
         <div id="headerText">
             <Grid
                 container
-                direction="row"
-                justify="space-evenly"
-                alignItems="center"
+                direction="column"
+                justify="space-around"
+                alignItems="flex-start"
             >
-                <h1>Content Box 1</h1>
-                <h1>Content Box 2</h1>
-                <h1>Content Box 3</h1>
+                <h1 id="nameText">Nick Yopko</h1>
+                <p id="bioText">Here's where I'll put something interesting about myself in hopes of getting a sweet job.</p>
             </Grid>
         </div>
 

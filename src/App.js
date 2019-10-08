@@ -1,7 +1,6 @@
 /// Components import
 import React, { Component } from 'react';
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 
 
@@ -9,6 +8,7 @@ import Nav from "./Components/Nav";
 /// Stylesheet import 
 
 import './App.css';
+import TitlePageWrapper from './Components/TitlePageWrapper';
 
 /// Pages imports 
 
@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
       <Nav />
-      <Header />
+      <TitlePageWrapper />
       </div>
     );
   }

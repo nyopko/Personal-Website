@@ -1,7 +1,20 @@
+/* TITLE PAGE STYLES */
+
 #headerText{
   color: red;
   text-align: center;
-  margin-top: 45vh;
+  margin-top: 25vh;
+}
+
+#nameText{
+  font-size: 20vh;
+  margin-left: 2%;
+}
+
+#bioText{
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 40%;
 }
 
 #navBar{
