@@ -1,0 +1,11 @@
+#headerText{
+  color: red;
+  text-align: center;
+  margin-top: 45vh;
+}
+
+#navBar{
+  background-color: purple!important;
+  /* background: none!important; */
+  color: black!important;
+}
