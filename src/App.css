@@ -8,13 +8,13 @@
 
 #nameText{
   font-size: 20vh;
-  margin-left: 2%;
+  margin-left: -6%;
 }
 
 #bioText{
   margin-top: 2%;
-  margin-left: 3%;
-  width: 40%;
+  margin-left: -6%;
+  width: 60%;
 }
 
 #navBar{
