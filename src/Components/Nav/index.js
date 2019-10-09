@@ -4,7 +4,7 @@ import React from 'react';
 
 function Nav() {
     return (
-        <nav id="navBar" className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <nav id="navBar" className="navbar static-top navbar-expand-md navbar-dark bg-dark">
     <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
