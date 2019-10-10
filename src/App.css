@@ -16,9 +16,8 @@
 }
 
 #navBar{
-  background-color: red!important;
   background: none!important;
-  color: red!important;
+  display: none;
 }
 
 .TitlePageWrapper{
@@ -40,5 +39,10 @@
 }
 
 @media (max-width: 767px) {
-  
+
+#navBar{
+  display: flex;
+}
+
+
 }
