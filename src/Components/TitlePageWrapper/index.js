@@ -19,7 +19,7 @@ function TitlePageWrapper() {
             justify="center"
             alignItems="center"
          >
-         <img id="backgroundImage" src= {bgimg} alt="Background Marketing Stock Photo"></img>
+         <img id="backgroundImage" src= {bgimg} alt="Marketing"></img>
          <Header />
          <Venn />
          </Grid>

@@ -8,33 +8,25 @@
 
 #nameText{
   font-size: 20vh;
-  margin-left: -6%;
 }
 
 #bioText{
   margin-top: 2%;
-  margin-left: -6%;
   width: 60%;
 }
 
 #navBar{
   background-color: red!important;
   background: none!important;
-  color: black!important;
+  color: red!important;
 }
 
 .TitlePageWrapper{
-  /* background-image: url("./Components/img/administration-adult-banking-6214.jpg");
-  background-repeat:no-repeat;
-  background-size: cover; */
   height: 100vh;
-  /* opacity: 0.5; */
   position: relative;
   overflow: hidden;
-  padding:0;
-  margin:0;
-  /* margin-top:-5%; */
-  /* margin-bottom: -20%; */
+  padding: 0;
+  margin: 0;
 }
 
 #backgroundImage{
@@ -42,7 +34,11 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 120vh;
+    height: 100%;
     opacity: 0.6;
     z-index: -1;
+}
+
+@media (max-width: 767px) {
+  
 }
