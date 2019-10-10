@@ -1,6 +1,5 @@
 /// Components import
 import React, { Component } from 'react';
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Content import
 import TitlePageWrapper from '../Components/TitlePageWrapper';
