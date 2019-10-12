@@ -18,10 +18,11 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
-                </Grid>
+                      
+                    </Grid>
             </div>
-        );
-    }
-}
-
+                );
+            }
+        }
+        
 export default App;
