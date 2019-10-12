@@ -10,7 +10,7 @@ import SubPageHeader from '../Components/AboutHeader';
 class App extends Component {
     render() {
         return (
-            <div className="homePage">
+            <div className="resumePage">
                 <Grid
                     container
                     direction="column"
