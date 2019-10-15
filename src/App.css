@@ -95,11 +95,11 @@ hr {
   display: flex;
 }
 
-#marketingText{
+.mainText{
   width:80%;
 }
 
-#subPageHeader{
+.subPageLinks{
   display: none;
 }
 
