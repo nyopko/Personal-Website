@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 // Content import
 import SubPageHeader from '../Components/AboutHeader';
+import Resume from "../Components/Resume";
 
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
+                    <Resume />
                 </Grid>
             </div>
         );

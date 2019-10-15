@@ -66,6 +66,25 @@
   margin-top: 20px;
 }
 
+/* Resume Page Styles */
+
+#resumeName{
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:black;
+  height: 1px;
+}
+
+.resumeDetails{
+  width: 70%
+}
+
 @media (max-width: 767px) {
 
 #navBar{
