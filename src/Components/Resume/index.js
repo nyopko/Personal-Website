@@ -34,7 +34,6 @@ function Resume() {
                         <li>Helped Cumulus Entertainment become one of the premier dance music promoters in Ohio, and helped foster partnerships with some of the world’s biggest promoters and venues.</li>
                     </ul>
                 </p>
-                <hr />
                 <p class="resumeDetails">
                 <b>EDM.com</b>
                 <br />
