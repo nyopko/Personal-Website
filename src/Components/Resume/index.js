@@ -12,7 +12,7 @@ function Resume() {
                 alignItems="center"
             >
                 <h1 id="resumeName">My Resume</h1>
-                <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
+                <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
                 <hr />
                 <h4 class="resumeHeaders">CAREER OBJECTIVE</h4>
                 <p class="resumeDetails">Digital Marketing Specialist seeking opportunities to work on creative, high-tech marketing campaigns and related projects in the technology world.</p>

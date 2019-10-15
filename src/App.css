@@ -85,6 +85,10 @@ hr {
   width: 70%
 }
 
+#resumeLinks{
+  text-align: center;
+}
+
 @media (max-width: 767px) {
 
 #navBar{
@@ -93,6 +97,14 @@ hr {
 
 #marketingText{
   width:80%;
+}
+
+#subPageHeader{
+  display: none;
+}
+
+#navLink{
+  text-align: center;
 }
 
 
