@@ -46,6 +46,13 @@
   margin-top: 8%;
 }
 
+/* About me Styles */
+
+#aboutMePic{
+  width: 500px;
+  height: 300px;
+}
+
 #marketingText{
   width: 50%;
   margin-top: 20px;
@@ -133,6 +140,8 @@ hr {
   display: none;
 }
 
+/* Resume Specific Styles */
+
 #resumeWrapper{
   border-style: none;
 }
@@ -150,5 +159,11 @@ hr {
   display: none;
 }
 
+/* About Me Pages */
+
+#aboutMePic{
+  width: 70%;
+  height: 30%;
+}
 
 }
