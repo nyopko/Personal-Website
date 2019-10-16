@@ -11,7 +11,6 @@ function Resume() {
                 justify="space-around"
                 alignItems="center"
             >
-            <a id="resumeButtonDesktop" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
             </Grid>
             <div id="resumeWrapper">
                 <div id="resumeContentWrapper">
@@ -23,6 +22,8 @@ function Resume() {
             >
                 <a id="resumeButton" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
                 <h2 id="resumeName">My Resume</h2>
+                <a id="resumeButtonDesktop" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
+                <br />
                 <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
                 <hr />
                 <h4 class="resumeHeaders">CAREER OBJECTIVE</h4>

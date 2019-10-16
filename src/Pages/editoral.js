@@ -19,8 +19,8 @@ class App extends Component {
                     justify="center"
                     alignItems="center"
                 >
-                    <h1 classname="pageHeaders">Writing</h1>
                     <SubPageHeader />
+                    <h1 classname="pageHeaders">Writing</h1>
                     <Grid
                         container
                         direction="row"

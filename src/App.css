@@ -38,6 +38,8 @@
     z-index: -1;
 }
 
+/* Sub page styles */
+
 #subPageHeader{
   text-align: center;
 }
@@ -46,11 +48,19 @@
   margin-top: 8%;
 }
 
+/* Total site styles */
+
+.mainText{
+  width: 80%;
+}
+
 /* About me Styles */
 
 #aboutMePic{
   width: 500px;
   height: 300px;
+  margin-bottom: 2%;
+  margin-top: 2%
 }
 
 #marketingText{
@@ -114,8 +124,8 @@ hr {
 }
 
 #resumeButtonDesktop{
-  margin-top: 2%;
-  margin-bottom: -2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 @media (max-width: 767px) {
@@ -125,7 +135,7 @@ hr {
 }
 
 .mainText{
-  width:80%;
+  width:10%;
 }
 
 .subPageLinks{
