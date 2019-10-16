@@ -13,6 +13,7 @@ class App extends Component {
         return (
             <div className="codingPage">
                 <Nav />
+            <div id="codingMobile"> 
                 <Grid
                     container
                     direction="column"
@@ -43,6 +44,7 @@ Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed preti
 
                     </Grid>
                 </Grid>
+                </div>   
             </div>
         );
     }
