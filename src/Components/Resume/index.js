@@ -5,14 +5,16 @@ import Grid from '@material-ui/core/Grid';
 function Resume() {
     return (
         <div id="resumePage">
+            <div id="resumeWrapper">
+                <div id="resumeContentWrapper">
             <Grid
                 container
                 direction="column"
                 justify="space-around"
                 alignItems="center"
             >
-                <h1 id="resumeName">My Resume</h1>
-                <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
+                <h2 id="resumeName">My Resume</h2>
+                <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
                 <hr />
                 <h4 class="resumeHeaders">CAREER OBJECTIVE</h4>
                 <p class="resumeDetails">Digital Marketing Specialist seeking opportunities to work on creative, high-tech marketing campaigns and related projects in the technology world.</p>
@@ -28,6 +30,7 @@ function Resume() {
                 <b>CUMULUS ENTERTAINMENT</b>, Cleveland, OH
                 <br />
                 <i>Digital Marketing Manager, 03/2016-Present</i>
+                <br />
                 Responsible for all of the company’s effective digital marketing efforts including social media, street team/guerilla marketing, public relations, and more.
                     <ul>
                         <li>Worked directly with the CEO in order to match the marketing efforts with the company’s vision.</li>
@@ -35,9 +38,10 @@ function Resume() {
                     </ul>
                 </p>
                 <p class="resumeDetails">
-                <b>EDM.com</b>
+                <b>EDM.COM</b>
                 <br />
                 <i>Associate Editor, 03/2017- Present</i>
+                <br />
                 Assign, edit, and publish content on behalf of our international writing staff for an audience of over 2 million.
                     <ul>
                         <li>Work hand-in-hand with the Editor-in-Chief and CEO to plan and execute and implement content campaigns.</li>
@@ -45,23 +49,40 @@ function Resume() {
                         <li>Very skilled in identifying trends on social media and creating unique content aligned with the trending topics and buzzwords.</li>
                     </ul>
                 </p>
+                <p class="resumeDetails">
+                <b>NATIONAL BIOLOGICAL CORPORATION</b>, Cleveland OH
+                <br />
+                <i>Marketing Associate, 05/2017-02/2019</i>
+                <br />
+                Supported the overall marketing needs of the company while assisting both the home and clinic sales department.
+                    <ul>
+                    <li>Researched databases to find targeted opportunities for the clinical sales department.</li>
+                    <li>Planned, created, and edited various marketing materials including but not limited to brochures, fliers, promotional videos, user manuals, and website content. </li>
+                    <li>Developed an all-in-one, interactive prescription and order form saving physicians valuable time, featured at a major dermatology tradeshow.</li>
+                    <li>Letter of Recommendation available upon request.</li>
+                    </ul>
+                </p>
                 <h4 class="resumeHeaders">EDUCATION</h4>
                 <p class="resumeDetails">
                 <b>Bachelor of Business Administration - Marketing</b> (2015)
                 <br />
-                Kent State University, Kent, Ohio
+                <i>Kent State University, Kent, Ohio</i>
                 <br />
                 Graduated magna cum laude. Minor in Public Communication 
                 </p>
                 <p class="resumeDetails">
                 <b>Full-Stack Coding Bootcamp</b> (2019)
                 <br />
-                Case Western Reserve University, Cleveland, Ohio
+                <i>Case Western Reserve University, Cleveland, Ohio</i>
                 <br />
-                Languages learned: HTML/CSS, Javascript, Node.js, MongoDB/Mongoose, MySQL/Sequelize, Express, Bootstrap, jQuery, and more. (Portfolio/Examples available upon request.)
+                <ul>
+                <li>Languages learned: HTML/CSS, Javascript, Node.js, MongoDB, Mongoose, MySQL, Sequelize, Express, Bootstrap, jQuery, and more.</li>
+                <li>Portfolio or examples available upon request.</li>    
+                </ul>
                 </p>
-
             </Grid>
+            </div>    
+        </div>
         </div>
 
     );

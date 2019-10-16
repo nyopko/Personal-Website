@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 function SubPageHeader() {
     return (
         <div id="subPageHeader">
+            <h1 id="nameHeader">Nick Yopko</h1>
             <Grid container spacing={3}>
                 <Grid item xs>
                     <a className="subPageLinks" href="/about">About</a>
