@@ -102,6 +102,15 @@ hr {
   /* padding: 2%; */
 }
 
+#resumeButton{
+  display: none;
+}
+
+#resumeButtonDesktop{
+  margin-top: 2%;
+  margin-bottom: -2%;
+}
+
 @media (max-width: 767px) {
 
 #navBar{
@@ -130,6 +139,15 @@ hr {
 
 #resumeContentWrapper{
   padding: 0%;
+}
+
+#resumeButton{
+  display: block;
+  margin-bottom: 2%;
+}
+
+#resumeButtonDesktop{
+  display: none;
 }
 
 
