@@ -68,6 +68,12 @@
   margin-top: 20px;
 }
 
+/* Coding Page Styles */
+
+#codingMobile{
+  display: none;
+}
+
 .codingText{
   width: 50%;
   margin-top: 20px;
@@ -174,6 +180,21 @@ hr {
 #aboutMePic{
   width: 70%;
   height: 30%;
+}
+
+/* Coding pages */
+
+#codingMobile{
+  display: inline;
+}
+
+#codingDesktop{
+  display:none;
+}
+
+.codingText{
+  width: 80%;
+  margin-top: 20px;
 }
 
 }
