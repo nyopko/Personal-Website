@@ -20,7 +20,7 @@ function Resume() {
                 justify="space-around"
                 alignItems="center"
             >
-                <a id="resumeButton" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
+                <a id="resumeButton" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button" >Download Resume</a>
                 <h2 id="resumeName">My Resume</h2>
                 <a id="resumeButtonDesktop" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
                 <br />
