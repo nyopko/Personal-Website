@@ -94,6 +94,11 @@
   margin-top: 20px;
 }
 
+#picCarousel{
+  width:200px;
+  height:400px;
+}
+
 /* Resume Page Styles */
 
 #resumeName{

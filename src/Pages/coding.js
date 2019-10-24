@@ -1,11 +1,14 @@
 /// Components import
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 
 // Content import
 import SubPageHeader from '../Components/AboutHeader';
 import Nav from "../Components/Nav";
+import space from "../Components/img/space.png"
 
 
 class App extends Component {
@@ -20,6 +23,22 @@ class App extends Component {
                         alignItems="center"
                     >
                         <SubPageHeader />
+                        <div id="picCarousel">
+                        <Carousel>
+                <div>
+                    <img src={space} />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={space} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={space} />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+            </div>
                         <h1 classname="pageHeaders">Coding</h1>
                         <Grid
                             container
