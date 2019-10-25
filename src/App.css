@@ -95,8 +95,8 @@
 }
 
 #picCarousel{
-  width:200px;
-  height:400px;
+  width:500px;
+  height:300px;
 }
 
 /* Resume Page Styles */
@@ -205,6 +205,11 @@ hr {
 .codingText{
   width: 80%;
   margin-top: 20px;
+}
+
+#picCarousel{
+  width: 80%;
+  height: auto;
 }
 
 }
