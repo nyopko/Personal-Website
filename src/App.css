@@ -94,7 +94,7 @@
   margin-top: 20px;
 }
 
-#picCarousel{
+.picCarousel{
   width:500px;
   height:300px;
 }
@@ -207,7 +207,7 @@ hr {
   margin-top: 20px;
 }
 
-#picCarousel{
+.picCarousel{
   width: 80%;
   height: auto;
 }
