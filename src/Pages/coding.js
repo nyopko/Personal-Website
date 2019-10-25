@@ -38,7 +38,7 @@ class App extends Component {
                         alignItems="center"
                     >
                         <div id="picCarousel">
-                        <Carousel showThumbs={false} swipeable={true}>
+                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true}>
                             <div>
                                 <img src={space} />
                                 <p className="legend">Space Education Homescreen</p>
