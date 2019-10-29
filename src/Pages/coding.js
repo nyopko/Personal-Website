@@ -54,7 +54,7 @@ class App extends Component {
                         alignItems="center"
                     >
                         <div className="picCarousel">
-                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true}>
+                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true} showStatus={true}>
                             <div>
                                 <img src={space} />
                                 <p className="legend">Space Education Homescreen</p>
@@ -81,11 +81,20 @@ class App extends Component {
                             </div>
                         </Carousel>
                     </div>
-                        <p className="codingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices orci vulputate, interdum eros ut, sodales arcu. Proin ac ex vitae libero commodo imperdiet in nec dui. Cras vitae mauris a sapien fringilla molestie. In hac habitasse platea dictumst. Pellentesque augue libero, feugiat sit amet sem nec, auctor commodo nunc. In elementum vitae felis nec placerat. Donec pulvinar, turpis non faucibus pellentesque, nisi leo venenatis lacus, vel placerat eros turpis eu felis. Ut ac risus arcu. Fusce porta iaculis felis, id cursus sapien mattis id. Proin congue sollicitudin sagittis. Nulla viverra finibus mauris, et luctus nunc. Suspendisse magna felis, malesuada id ex non, ullamcorper fermentum neque. Suspendisse fringilla quis velit eget semper.
-
-Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed pretium orci quis ipsum tristique aliquet. Donec vitae arcu tortor. Curabitur at sapien in turpis porttitor fringilla eget condimentum mi. Etiam eget nunc quis libero mattis iaculis. Vivamus maximus euismod libero, ut convallis quam varius quis. Proin lectus est, pharetra non tempor eget, molestie quis tellus.</p>
+                        <p className="codingText">
+                            <h5 className="projectName">
+                                Space Education
+                                </h5>
+                                A React-powered web application created to help teach kids of all ages about the wonders of space and beyond. Using multiple NASA APIs we were able to create a variety of activities that are interactive, educational, and most importantly, fun. Users can view NASA’s astronomy picture of the day, view images from the three Mars rovers, explore an interactive map of the solar system, and see which near-Earth objects are flying by us today.
+                                <br />
+                                (Due to group time restrictions, this application is not currently mobile-friendly.)
+                                <br />
+                                <a className="codeLinks" href="https://space-education.herokuapp.com/">See for yourself!</a>
+                                <br />
+                                <a className="codeLinks" href="https://github.com/nyopko/planet-app-fork">View Source on Github</a>
+                            </p>
 <div className="picCarousel">
-                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true}>
+                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true} showStatus={true}>
                             <div>
                                 <img src={fire} />
                                 <p className="legend">Firefighter's Friend Application</p>
@@ -116,12 +125,20 @@ Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed preti
                             </div>
                         </Carousel>
                     </div>
-                        <p className="codingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices orci vulputate, interdum eros ut, sodales arcu. Proin ac ex vitae libero commodo imperdiet in nec dui. Cras vitae mauris a sapien fringilla molestie. In hac habitasse platea dictumst. Pellentesque augue libero, feugiat sit amet sem nec, auctor commodo nunc. In elementum vitae felis nec placerat. Donec pulvinar, turpis non faucibus pellentesque, nisi leo venenatis lacus, vel placerat eros turpis eu felis. Ut ac risus arcu. Fusce porta iaculis felis, id cursus sapien mattis id. Proin congue sollicitudin sagittis. Nulla viverra finibus mauris, et luctus nunc. Suspendisse magna felis, malesuada id ex non, ullamcorper fermentum neque. Suspendisse fringilla quis velit eget semper.
+                        <p className="codingText">
+                        <h5 className="projectName">
+                            Firefighter's Friend
+                            </h5>
+                            A back-end focused application that provides a queryable database for firehouse management information. With the vast number of certifications each firefighter has, plus the enormous amount of equipment each firehouse holds and utilizes, there needed to be an easily-readable way to manage it. Using MySQL/Sequelize, Firefighter's Friend allows users to add crew or equipment to the database and then edit each item’s attributes and add or remove certifications as needed.
 
-Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed pretium orci quis ipsum tristique aliquet. Donec vitae arcu tortor. Curabitur at sapien in turpis porttitor fringilla eget condimentum mi. Etiam eget nunc quis libero mattis iaculis. Vivamus maximus euismod libero, ut convallis quam varius quis. Proin lectus est, pharetra non tempor eget, molestie quis tellus.</p>
+                                <br />
+                                <a className="codeLinks" href="https://firefightersfriend.herokuapp.com/">See for yourself!</a>
+                                <br />
+                                <a className="codeLinks" href="https://github.com/nyopko/SecondGroupProject">View Source on Github</a>
+                            </p>
 
 <div className="picCarousel">
-                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true}>
+                        <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true} showStatus={true}>
                             <div>
                                 <img src={audiorain} />
                                 <p className="legend">Audio Rain Application</p>
@@ -136,9 +153,16 @@ Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed preti
                             </div>
                         </Carousel>
                     </div>
-                        <p className="codingText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices orci vulputate, interdum eros ut, sodales arcu. Proin ac ex vitae libero commodo imperdiet in nec dui. Cras vitae mauris a sapien fringilla molestie. In hac habitasse platea dictumst. Pellentesque augue libero, feugiat sit amet sem nec, auctor commodo nunc. In elementum vitae felis nec placerat. Donec pulvinar, turpis non faucibus pellentesque, nisi leo venenatis lacus, vel placerat eros turpis eu felis. Ut ac risus arcu. Fusce porta iaculis felis, id cursus sapien mattis id. Proin congue sollicitudin sagittis. Nulla viverra finibus mauris, et luctus nunc. Suspendisse magna felis, malesuada id ex non, ullamcorper fermentum neque. Suspendisse fringilla quis velit eget semper.
-
-Sed pharetra facilisis magna, vitae volutpat tellus ultrices sit amet. Sed pretium orci quis ipsum tristique aliquet. Donec vitae arcu tortor. Curabitur at sapien in turpis porttitor fringilla eget condimentum mi. Etiam eget nunc quis libero mattis iaculis. Vivamus maximus euismod libero, ut convallis quam varius quis. Proin lectus est, pharetra non tempor eget, molestie quis tellus.</p>
+                        <p className="codingText">
+                        <h5 className="projectName">
+                            Audio Rain
+                            </h5>
+                            A simple, but fun application created in the early stages of my education that allows the user to receive album suggestions based on the weather in their selected location. Using both the OpenWeather and MusixMatch APIs, Audio Rain correlates the location’s weather to an album based on mood. The user will also receive similar artists to the one given, based on the album’s metadata and be able to see what album was recommended to the five most recent users prior to their search.
+                                <br />
+                                <a className="codeLinks" href="https://syddunlap.github.io/firstgroupproject/">See for yourself!</a>
+                                <br />
+                                <a className="codeLinks" href="https://github.com/nyopko/firstgroupproject">View Source on Github</a>
+                            </p>
 
                     </Grid>
                 </Grid>

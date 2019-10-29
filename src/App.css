@@ -99,6 +99,10 @@
   height:300px;
 }
 
+.projectName{
+  color:red;
+}
+
 /* Resume Page Styles */
 
 #resumeName{
