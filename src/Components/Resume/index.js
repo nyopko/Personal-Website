@@ -64,7 +64,7 @@ function Resume() {
                 <br />
                 <i>Marketing Associate, 05/2017-02/2019</i>
                 <br />
-                Supported the overall marketing needs of the company while assisting both the home and clinic sales department.
+                Supported the overall marketing needs of the company while assisting both the home and clinical sales department.
                     <ul>
                     <li>Researched databases to find targeted opportunities for the clinical sales department.</li>
                     <li>Planned, created, and edited various marketing materials including but not limited to brochures, fliers, promotional videos, user manuals, and website content. </li>
