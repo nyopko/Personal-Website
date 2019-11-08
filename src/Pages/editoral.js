@@ -20,14 +20,17 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
-                    <h1 classname="pageHeaders">Writing</h1>
+                    <hr />
                     <Grid
                         container
                         direction="row"
                         justify="space-evenly"
                         alignItems="center"
                     >
-                        <img src="https://via.placeholder.com/500x300" />
+                        <div className="quoteContainer">
+                        <h1 className="quoteHeader">"Either write something worth reading or do something worth writing."</h1>
+                        <p className="quoteAuthor"><b>- Benjamin Franklin</b></p>
+                        </div>
                         <div className="textSection">
                             <p className="bioText">This is the section where I write about my writing… very meta, I know.</p>
                             <p className="bioText">I took a fairly non-traditional route to get where I am as a writer. On this page, you will not find a fancy journalism or English literature degree, but rather someone realizing their passion and running with it.</p>

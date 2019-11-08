@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+
 /* TITLE PAGE STYLES */
 
 #headerText{
@@ -50,6 +52,16 @@
   width: 80%;
 }
 
+.quoteContainer{
+  padding-top: 8%;
+  width: 60%;
+  height: 300px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  background-image: url("../src/Components/img/marketingpic.jpg");
+  background-size: cover;
+}
+
 /* About me Styles */
 
 #aboutMePic{
@@ -65,7 +77,7 @@
 }
 
 .textSection{
-  width: 80%;
+  width: 70%;
   margin-top: 1%;
 }
 
@@ -101,6 +113,12 @@
 
 .projectName{
   color:red;
+}
+
+/* Writing page styles */
+
+.quoteAuthor{
+  margin-left: 60%;
 }
 
 /* Resume Page Styles */
@@ -214,6 +232,12 @@ hr {
 .picCarousel{
   width: 80%;
   height: auto;
+}
+
+/* Writing page */
+
+.quoteContainer{
+  width: 95%;
 }
 
 }

@@ -21,14 +21,16 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
-                    <h1 classname="pageHeaders">Marketing</h1>
                     <Grid
                         container
                         direction="row"
                         justify="space-evenly"
                         alignItems="center"
                     >
-                        <img src="https://via.placeholder.com/500x300" />
+                        <div className="quoteContainer">
+                        <h1 className="quoteHeader">"I can't understand why people are frightened of new ideas. I'm frightened of the old ones."</h1>
+                        <p className="quoteAuthor"><b>- John Cage</b></p>
+                        </div>
                         <div className="textSection">
                             <p className="bioText"> Whether it’s content creation, planning, or execution, my varied background in both traditional and digital marketing, allows me to provide creative solutions to projects across multiple industries. </p>
                             <p className="bioText">While working in the medical field, I assisted both the home and clinical sales departments with a variety of traditional marketing operations. Much of my work revolved around the creation of physical marketing material, as well as updating the outdated material to both showcase the current product line and make it more visually appealing.</p>
