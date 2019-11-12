@@ -36,6 +36,35 @@
     z-index: -1;
 }
 
+.squareIdent{
+  color:red;
+  margin-right: 13%;
+  margin-top: -10%;
+  font-size: 6em;
+  text-align: left;
+  /* border-bottom: 5px solid red; */
+  text-decoration: underline;
+  width: 38%;
+  
+}
+
+.squares{
+  margin-right: 20%;
+  margin-top: -20%;
+  background-color: red;
+  float: right;
+
+}
+
+.homeText{
+  
+    color:red;
+    margin-right: 40%;
+    margin-top: 5%;
+    font-size: 6em;
+    text-align: left;
+}
+
 /* Sub page styles */
 
 #subPageHeader{
@@ -69,6 +98,25 @@
   height: 300px;
   margin-bottom: 2%;
   margin-top: 2%
+}
+
+
+/* Venn Diagram Styles */
+
+
+
+
+#three{
+  height: 100px;
+  width: 100px;
+}
+#one{
+  height: 100px;
+  width: 100px;
+}
+#two{
+  height: 100px;
+  width: 100px;
 }
 
 #marketingText{
