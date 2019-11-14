@@ -40,7 +40,7 @@
   position: relative;
   z-index: 1;
   color: white;
-  margin-top: 2%;
+  margin-top: 6%;
 }
 
 .socialIcons{
@@ -50,6 +50,10 @@
 
 .iconLinks{
   color:white;
+}
+
+.homeIconLinks{
+  color: black;
 }
 
 .TitlePageWrapper{
@@ -72,11 +76,7 @@
 }
 
 .squares{
-  /* margin-top: -20%;
-  background-color: red;
-  width: auto;
-  position: fixed;
-  margin-left: 55%; */
+ margin-top: 3%;
 
 }
 
@@ -116,26 +116,27 @@
 #square1{
   border-width: 2px;
   border-color: blue;
-  border-style: dashed;
+  border-style: solid;
   background-color: blue;
-  height: 25%;
-  margin-top: -30%;
-  margin-left: 65%;
-  width: 200px;
+  height: 20%;
+  margin-top: -22%;
+  margin-left: 64.5%;
+  width: 15%;
   z-index: 5;
   position: relative;
   text-align: center;
+  
 }
 
 #square2{
   border-width: 2px;
   border-color: yellow;
   background-color: yellow;
-  border-style: dashed;
-  height: 25%;
-  margin-top: 5%;
-  margin-left: 65%;
-  width: 200px;
+  border-style: solid;
+  height: 20%;
+  margin-top: -6.3%;
+  margin-left: 80%;
+  width: 15%;
   z-index: 5;
   position: relative;
   text-align: center;
@@ -145,11 +146,11 @@
   border-width: 2px;
   border-color: lime;
   background-color: lime;
-  border-style: dashed;
-  height: 25%;
-  margin-top: 5%;
-  margin-left: 65%;
-  width: 200px;
+  border-style: solid;
+  height: 20%;
+  margin-top: 0.3%;
+  margin-left: 72%;
+  width: 15%;
   z-index: 5;
   position: relative;
   text-align: center;

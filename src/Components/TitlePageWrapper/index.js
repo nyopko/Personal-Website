@@ -51,14 +51,14 @@ class TitlePageWrapper extends React.Component {
                </Grid>
                         
                      <div class="squares">
-                        <div id="square1" data-text="marketing.">
-                        <h3><FaBriefcase /><br />Marketing</h3>
+                        <div id="square1" data-text="coding.">
+                        <a className="homeIconLinks" href="/coding"><h3><FaLaptopCode /><br />Coding</h3></a>
                         </div>
-                        <div id="square2" data-text="coding.">
-                        <h3><FaLaptopCode /><br />Coding</h3>   
+                        <div id="square2" data-text="marketing.">
+                        <a className="homeIconLinks" href="/marketing"><h3><FaBriefcase /><br />Marketing</h3></a>   
                         </div>
                         <div id="square3" data-text="writing.">
-                        <h3><FaPencilAlt /><br />Writing</h3>   
+                        <a className="homeIconLinks" href="/writing"><h3><FaPencilAlt /><br />Writing</h3></a>  
                         </div>
                      </div>
                <SocialLinks />           
