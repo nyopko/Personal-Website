@@ -36,6 +36,22 @@
     z-index: 1;
 }
 
+#socialLinks{
+  position: relative;
+  z-index: 1;
+  color: white;
+  margin-top: 2%;
+}
+
+.socialIcons{
+  font-size: 3em;
+  margin: 1%;
+}
+
+.iconLinks{
+  color:white;
+}
+
 .TitlePageWrapper{
   background: black;
 }
@@ -48,6 +64,7 @@
   text-align: left;
   /* border-bottom: 5px solid red; */
   text-decoration: underline;
+  font-style: italic;
   width: 38%;
   z-index: 5;
   position: relative;
@@ -79,8 +96,21 @@
 }
 
 #square1:hover {
-  opacity: 1.0;
+  opacity: 0.5;
   filter:alpha(opacity=100);
+  background-color: white;
+}
+
+#square2:hover {
+  opacity: 0.5;
+  filter:alpha(opacity=100);
+  background-color: white;
+}
+
+#square3:hover {
+  opacity: 0.5;
+  filter:alpha(opacity=100);
+  background-color: white;
 }
 
 #square1{
@@ -132,6 +162,10 @@
 }
 
 .subPageLinks{
+  color:black;
+}
+
+.homePageLinks{
   color:white;
 }
 

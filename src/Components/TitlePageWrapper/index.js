@@ -11,6 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import {FaLaptopCode} from "react-icons/fa";
 import {FaPencilAlt} from "react-icons/fa";
 import {FaBriefcase} from "react-icons/fa";
+import SocialLinks from '../SocialLinks';
 
 
 class TitlePageWrapper extends React.Component {
@@ -59,10 +60,8 @@ class TitlePageWrapper extends React.Component {
                         <div id="square3" data-text="writing.">
                         <h3><FaPencilAlt /><br />Writing</h3>   
                         </div>
-                        <div class="square4" data-text="I am Square 4"></div>
-                        <div class="square5" data-text="I am Square 5"></div>
-               
                      </div>
+               <SocialLinks />           
          </div>
       );
    }

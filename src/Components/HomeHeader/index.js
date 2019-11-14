@@ -6,19 +6,19 @@ function HomeHeader() {
         <div id="homePageHeader">
             <Grid container spacing={3}>
                 <Grid item xs>
-                    <a className="subPageLinks" href="/about">About</a>
+                    <a className="homePageLinks" href="/about">About</a>
                 </Grid>
                 <Grid item xs>
-                <a className="subPageLinks" href="/marketing">Marketing</a>
+                <a className="homePageLinks" href="/marketing">Marketing</a>
                 </Grid>
                 <Grid item xs>
-                <a className="subPageLinks" href="/coding">Coding</a>
+                <a className="homePageLinks" href="/coding">Coding</a>
                 </Grid>
                 <Grid item xs>
-                <a className="subPageLinks" href="/writing">Writing</a>
+                <a className="homePageLinks" href="/writing">Writing</a>
                 </Grid>
                 <Grid item xs>
-                <a className="subPageLinks" href="/resume">Resume</a>
+                <a className="homePageLinks" href="/resume">Resume</a>
                 </Grid>
             </Grid>
         </div>
