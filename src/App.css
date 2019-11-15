@@ -280,6 +280,10 @@ a:hover{
 
 /* Coding Page Styles */
 
+#codePageMB{
+  display:none;
+}
+
 #codingMobile{
   display: none;
 }
@@ -424,6 +428,14 @@ hr {
 }
 
 /* Coding pages */
+
+#codePageMB{
+  display: block;
+}
+
+#codePageDT{
+  display: none;
+}
 
 #codingMobile{
   display: inline;
