@@ -174,6 +174,7 @@
 
 #subPageHeader{
   text-align: center;
+  margin-top: 2%;
 }
 
 #subPageName{
@@ -205,6 +206,16 @@
   margin-top: 2%
 }
 
+#aboutMePicMobile{
+  display:none;
+}
+
+.aboutIcon{
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 3em;
+  color: #C3073f;
+}
 
 #marketingText{
   width: 50%;
@@ -226,7 +237,7 @@
   width: 70%;
 }
 
-.aboutPage{
+.aboutPage,.codingPage,.writingPage,.resumePage,.marketingPage{
   background-color: #1a1a1d;
   background-image: url("../src/Components/img/subbg.png");
   color: white;
@@ -248,9 +259,24 @@
   color: #C3073f;
 }
 
+.picIcon{
+  color: #C3073f;
+  font-size: 6em;
+}
+
 .boldWords{
   color: #950740;
 }
+
+a{
+  color: #c3073f;
+}
+
+a:hover{
+  color: #950740;
+  text-decoration-line: none;
+}
+
 
 /* Coding Page Styles */
 
@@ -276,10 +302,11 @@
 .picCarousel{
   width:500px;
   height:300px;
+  margin-top: 4%;
 }
 
 .projectName{
-  color:red;
+  color: #c3073f;
 }
 
 /* Writing page styles */
@@ -300,7 +327,7 @@ hr {
   clear:both;
   display:block;
   width: 70%;               
-  background-color:black;
+  background-color:#4e4e50;
   height: 1px;
 }
 
@@ -329,8 +356,8 @@ hr {
 }
 
 #resumeButtonDesktop{
-  margin-top: 1%;
   margin-bottom: 1%;
+  background-color: #c3073f;
 }
 
 @media (max-width: 767px) {
@@ -368,6 +395,7 @@ hr {
 #resumeButton{
   display: block;
   margin-bottom: 2%;
+  background-color: #c3073f;
 }
 
 #resumeButtonDesktop{
@@ -377,13 +405,22 @@ hr {
 /* About Me Pages */
 
 #aboutMePic{
+  height: 25vh;
   width: 70%;
+}
+
+#aboutMePicMobile{
   height: 30%;
+  width: 70%;
 }
 
 #aboutMePicBreak{
   height: 50vh;
   width: 100%;
+}
+
+.picIcon{
+  display:none;
 }
 
 /* Coding pages */

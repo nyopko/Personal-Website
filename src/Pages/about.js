@@ -9,7 +9,10 @@ import Nav from "../Components/Nav";
 import ProfilePic from "../Components/img/profilepic.jpg";
 import codecomp from "../Components/img/codecomp.jpg";
 import writing from "../Components/img/writing.jpg";
-
+import typing from "../Components/img/typing.jpg";
+import {MdKeyboardArrowDown} from "react-icons/md";
+import {MdKeyboardArrowRight} from "react-icons/md";
+import {MdKeyboardArrowLeft} from "react-icons/md";
 
 class App extends Component {
     render() {
@@ -23,7 +26,16 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
+                    <Grid
+                    container
+                    direction="row"
+                    justify="space-evenly"
+                    alignItems="center"
+                    >
+                        <h3 className="picIcon"><MdKeyboardArrowRight /></h3>
                     <img id="aboutMePic" src={ProfilePic} />
+                    <h3 className="picIcon"><MdKeyboardArrowLeft /></h3>
+                </Grid>
                     <Grid
                         container
                         direction="column"
@@ -35,7 +47,10 @@ class App extends Component {
                             <p className="bioText"> Since I was about seven years old, I’ve been the unofficial IT technician for my family. This essentially means I’m the superhero who can magically make the internet come back on. (Spoiler Alert: Yes, all I do is unplug it then plug it back in again).</p>
                             <p className="bioText">Somehow, after breaking countless old computers, video cameras, and video game systems as a child, I was able to pick up enough knowledge to actually understand the technology behind these now broken things. Hours upon hours were spent surfing the internet on my PSP’s web browser (laptops were too expensive back then) watching tech videos for fun and indirectly learning new things.</p>
                             <p className="bioText">So what’s a young <b className="boldWords">technology-minded</b> student to do after high school? Get a <b className="boldWords">marketing degree</b> of course! Yeah, I didn’t see that coming either…</p> 
+                            <div className="aboutIcon"><MdKeyboardArrowDown /></div>
+
                         </div>
+                        <img className="aboutMePicBreak" src={typing} />
                         <div className="textSection">
                             <h3 className="bioBold"><b className="boldWordsTitle">Digital Marketing Fun</b></h3>
                             <p className="bioText">I gravitated towards digital marketing because I’ve always enjoyed how creative the work could be, and how much technology and science it implemented. Plus, anything with the word “digital” in front of it just sounds cool. While <b className="boldWords">solving problems and implementing creative solutions </b> in both the medical equipment and entertainment industries (not quite peanut butter and jelly, but a good mix nonetheless) I realized how much more there is to the field and made the decision to dive in a little deeper.</p>

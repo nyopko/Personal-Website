@@ -21,7 +21,7 @@ function Resume() {
                 alignItems="center"
             >
                 <a id="resumeButton" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button" >Download Resume</a>
-                <h2 id="resumeName">My Resume</h2>
+                <h2 id="resumeName">Nicholas Yopko</h2>
                 <a id="resumeButtonDesktop" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
                 <br />
                 <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
@@ -88,6 +88,27 @@ function Resume() {
                 <ul>
                 <li>Languages learned: HTML/CSS, Javascript, Node.js, MongoDB, Mongoose, MySQL, Sequelize, Express, Bootstrap, jQuery, and more.</li>
                 <li>Portfolio or examples available upon request.</li>    
+                </ul>
+                </p>
+                <h4 class="resumeHeaders">VOLUNTEERING</h4>
+                <p class="resumeDetails">
+                <b>NASA Space Apps</b> (2019)
+                <br />
+                <i>NASA Glenn Research Center, Cleveland, Ohio</i>
+                <br />
+                <ul>
+                <li>Volunteered at the K-12 student's day hackathon. Helped children operate 3D printers, write basic code, and served as an overall resource for any questions that arised. (Reference availble upon request.)</li>
+                </ul>
+                </p>
+                <p class="resumeDetails">
+                <b>Winter Clothing Drive</b>
+                <br />
+                <i>Kent, Ohio</i>
+                <br />
+                <ul>
+                <li>Organized a volunteer coat drive at Kent State University and the surrounding area. Compltely self-funded by a team of just four students.</li>
+                <li>A massive success, we were able to donate many boxes of winter clothing to a local homeless shelter.</li>
+                <li>Assisted in everything from collection to social media advertising.</li>
                 </ul>
                 </p>
             </Grid>

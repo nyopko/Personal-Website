@@ -46,7 +46,6 @@ class App extends Component {
                     alignItems="center"
                 >
                     <SubPageHeader />
-                    <h1 classname="pageHeaders">Coding</h1>
                     <Grid
                         container
                         direction="row"
@@ -93,7 +92,19 @@ class App extends Component {
                                 <br />
                                 <a className="codeLinks" href="https://github.com/nyopko/planet-app-fork">View Source on Github</a>
                             </p>
-<div className="picCarousel">
+                            <hr />
+                        <p className="codingText">
+                        <h5 className="projectName">
+                            Firefighter's Friend
+                            </h5>
+                            A back-end focused application that provides a queryable database for firehouse management information. With the vast number of certifications each firefighter has, plus the enormous amount of equipment each firehouse holds and utilizes, there needed to be an easily-readable way to manage it. Using MySQL/Sequelize, Firefighter's Friend allows users to add crew or equipment to the database and then edit each item’s attributes and add or remove certifications as needed.
+
+                                <br />
+                                <a className="codeLinks" href="https://firefightersfriend.herokuapp.com/">See for yourself!</a>
+                                <br />
+                                <a className="codeLinks" href="https://github.com/nyopko/SecondGroupProject">View Source on Github</a>
+                            </p>
+                            <div className="picCarousel">
                         <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true} showStatus={true}>
                             <div>
                                 <img src={fire} />
@@ -125,17 +136,7 @@ class App extends Component {
                             </div>
                         </Carousel>
                     </div>
-                        <p className="codingText">
-                        <h5 className="projectName">
-                            Firefighter's Friend
-                            </h5>
-                            A back-end focused application that provides a queryable database for firehouse management information. With the vast number of certifications each firefighter has, plus the enormous amount of equipment each firehouse holds and utilizes, there needed to be an easily-readable way to manage it. Using MySQL/Sequelize, Firefighter's Friend allows users to add crew or equipment to the database and then edit each item’s attributes and add or remove certifications as needed.
-
-                                <br />
-                                <a className="codeLinks" href="https://firefightersfriend.herokuapp.com/">See for yourself!</a>
-                                <br />
-                                <a className="codeLinks" href="https://github.com/nyopko/SecondGroupProject">View Source on Github</a>
-                            </p>
+                    <hr />
 
 <div className="picCarousel">
                         <Carousel showThumbs={false} swipeable={true} showIndicators={false} infiniteLoop={true} autoPlay={true} showStatus={true}>
