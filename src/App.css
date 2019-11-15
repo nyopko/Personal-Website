@@ -163,7 +163,7 @@
 }
 
 .subPageLinks{
-  color:black;
+  color:#C3073f;
 }
 
 .homePageLinks{
@@ -216,13 +216,25 @@
   margin-top: 1%;
 }
 
-#aboutMePicBreak{
+.aboutMePicBreak{
   height: 100vh;
   width: 100%;
 }
 
-.textSection1{
+#colorbgtest{
+  background-color: red;
   width: 70%;
+}
+
+.aboutPage{
+  background-color: #1a1a1d;
+  background-image: url("../src/Components/img/subbg.png");
+  color: white;
+}
+
+
+.textSection1{
+  width: 100%;
   margin-top: 1%;
   border-color: black;
   border-style: dashed;
@@ -232,8 +244,12 @@
 
 }
 
-.bioBold{
-  color: black;
+.boldWordsTitle{
+  color: #C3073f;
+}
+
+.boldWords{
+  color: #950740;
 }
 
 /* Coding Page Styles */
