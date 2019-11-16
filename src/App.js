@@ -17,6 +17,7 @@ import Marketing from "./Pages/marketing.js";
 import Coding from "./Pages/coding.js";
 import Editoral from "./Pages/editoral.js";
 import Resume from "./Pages/resume.js";
+import NewHome from "./Pages/NewHome.js";
 
 
 
@@ -27,7 +28,7 @@ class App extends Component {
       <Router>
         <div>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={NewHome} />
             <Route exact path="/about" component={About} />
             <Route exact path="/marketing" component={Marketing} />
             <Route exact path="/coding" component={Coding} />

@@ -16,7 +16,7 @@ function SocialLinks() {
                alignItems="center"
                >
                   <div className="socialIcons"><a className="iconLinks" href="https://www.linkedin.com/in/yopko/"><FaLinkedin /></a></div>
-                  <div className="socialIcons"><a className="iconLinks" href="https://github.com/nyopko"><FaGithubSquare /></a></div>
+                  <div id="github" className="socialIcons"><a className="iconLinks" href="https://github.com/nyopko"><FaGithubSquare /></a></div>
                   <div className="socialIcons"><a className="iconLinks" href="https://www.facebook.com/yopko"><FaFacebookSquare /></a></div>
                </Grid> 
             </div> 

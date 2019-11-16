@@ -16,7 +16,25 @@ import SocialLinks from '../SocialLinks';
 
 class TitlePageWrapper extends React.Component {
    componentDidMount() {
-      $(".squares > *").hover(function () {
+      $("#square1").hover(function () {
+         $(".squareIdent").text($(this).attr("data-text"));
+         $(".squareIdent").stop().animate({
+            opacity: 1
+         }, 500);
+      }, function () {
+         $(".squareIdent").text("it all.");
+      });
+
+      $("#square2").hover(function () {
+         $(".squareIdent").text($(this).attr("data-text"));
+         $(".squareIdent").stop().animate({
+            opacity: 1
+         }, 500);
+      }, function () {
+         $(".squareIdent").text("it all.");
+      });
+
+      $("#square3").hover(function () {
          $(".squareIdent").text($(this).attr("data-text"));
          $(".squareIdent").stop().animate({
             opacity: 1
@@ -43,14 +61,18 @@ class TitlePageWrapper extends React.Component {
                justify="center"
                alignItems="center"
                >
-               <div id="bgImgContainer">
+               {/* <div id="bgImgContainer">
                   <img id="backgroundImage" src={bgimg} alt="Marketing"></img>
-               </div>
-                  <h1 class="homeText"> Nick Yopko<br />can help you<br /> with<br /></h1>
+               </div> */}
+                  <h1 class="homeText"> Nick Yopko can help you with...</h1>
                   <h1 class="squareIdent">it all.</h1>
-               </Grid>
-                        
-                     <div class="squares">
+            <div class="squares">
+               <Grid
+               container
+               direction="row"
+               justify="space-evenly"
+               alignItems="center"
+               >
                         <div id="square1" data-text="coding.">
                         <a className="homeIconLinks" href="/coding"><h3><FaLaptopCode /><br />Coding</h3></a>
                         </div>
@@ -60,8 +82,11 @@ class TitlePageWrapper extends React.Component {
                         <div id="square3" data-text="writing.">
                         <a className="homeIconLinks" href="/writing"><h3><FaPencilAlt /><br />Writing</h3></a>  
                         </div>
+                        </Grid>
                      </div>
-               <SocialLinks />           
+
+               </Grid>          
+               {/* <SocialLinks />     */}
          </div>
       );
    }

@@ -2,6 +2,32 @@
 
 /* TITLE PAGE STYLES */
 
+#testerrrr{
+  color:white;
+}
+
+#backgroundContain{
+  background-color: white;
+  background-image: url("../src/Components/img/bgimg.jpg");
+  background-size: cover;
+  
+}
+
+.NewHomePage{
+  background-color: black;
+}
+
+#mainContent{
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+} 
+
+
+.homePage{
+  background-color: black;
+}
+
 #headerText{
   color: red;
   text-align: center;
@@ -24,32 +50,53 @@
   overflow: hidden;
   padding: 0;
   margin: 0;
+  z-index: 5;
 }
 
 #backgroundImage{
-  position: absolute;
+  position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     opacity: 0.4;
     z-index: 1;
+    overflow:auto;
 }
 
 #socialLinks{
-  position: relative;
+  /* position: relative;
   z-index: 1;
   color: white;
-  margin-top: 6%;
+  margin-top: 25%; */
+  width:40%
 }
 
 .socialIcons{
-  font-size: 3em;
-  margin: 1%;
+  /* font-size: 3em;
+  margin: 1%; */
+}
+
+#github{
+  margin-right: 6%;
+  margin-left: 6%;
 }
 
 .iconLinks{
-  color:white;
+  color: white;
+  font-size: 5em;
+  /* color:red;
+  position: absolute;
+  padding: 5px;
+  margin-bottom: -1%; */
+}
+
+#socialContainer{
+  position: absolute;
+  bottom: 0;
+  right: 38%;
+  height: 100px;
+  width: 300px;
 }
 
 .homeIconLinks{
@@ -62,32 +109,27 @@
 
 .squareIdent{
   color:white;
-  margin-right: 13%;
-  margin-top: -10%;
   font-size: 6em;
-  text-align: left;
-  /* border-bottom: 5px solid red; */
+  text-align: center;
   text-decoration: underline;
   font-style: italic;
   width: 38%;
-  z-index: 5;
-  position: relative;
+  margin-bottom: 5%;
   
 }
 
 .squares{
- margin-top: 3%;
-
+width: 80%;
+margin-top: 10%;
 }
 
 .homeText{
-  color:white;
-  margin-right: 40%;
-  margin-top: 5%;
-  font-size: 6em;
-  text-align: left;
+  color: white;
+  font-size: 5em;
+  width: 70%;
+  text-align: center;
   z-index: 5;
-  position: relative;
+  margin-top: 4%;
 }
 
 #three{
@@ -99,61 +141,57 @@
   opacity: 0.5;
   filter:alpha(opacity=100);
   background-color: white;
+  border-color: #C3073f;
 }
 
 #square2:hover {
   opacity: 0.5;
   filter:alpha(opacity=100);
   background-color: white;
+  border-color: #C3073f;
 }
 
 #square3:hover {
   opacity: 0.5;
   filter:alpha(opacity=100);
   background-color: white;
+  border-color: #C3073f;
 }
 
 #square1{
   border-width: 2px;
-  border-color: blue;
+  border-color: white;
+  background-color: #C3073f;
   border-style: solid;
-  background-color: blue;
-  height: 20%;
-  margin-top: -22%;
-  margin-left: 64.5%;
-  width: 15%;
+  height: 100%;
+  width: 20%;
   z-index: 5;
-  position: relative;
   text-align: center;
-  
+  color: white;
 }
 
 #square2{
   border-width: 2px;
-  border-color: yellow;
-  background-color: yellow;
+  border-color: white;
+  background-color: #C3073f;
   border-style: solid;
-  height: 20%;
-  margin-top: -6.3%;
-  margin-left: 80%;
-  width: 15%;
+  height: 100%;
+  width: 20%;
   z-index: 5;
-  position: relative;
   text-align: center;
+  color: white;
 }
 
 #square3{
   border-width: 2px;
-  border-color: lime;
-  background-color: lime;
+  border-color: white;
+  background-color: #C3073f;
   border-style: solid;
-  height: 20%;
-  margin-top: 0.3%;
-  margin-left: 72%;
-  width: 15%;
+  height: 100%;
+  width: 20%;
   z-index: 5;
-  position: relative;
   text-align: center;
+  color: white;
 }
 
 #homePageHeader{
