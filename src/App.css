@@ -43,7 +43,7 @@
 
 #navBar{
   background: none!important;
-  display: none;
+  /* display: none; */
 }
 
 .TitlePageWrapper{
@@ -224,6 +224,10 @@ margin-top: 10%;
 #subPageHeader{
   text-align: center;
   margin-top: 2%;
+}
+
+#move{
+  margin-left: 1%;
 }
 
 #subPageName{

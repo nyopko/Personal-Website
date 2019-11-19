@@ -46,7 +46,7 @@ class App extends Component {
                     justify="center"
                     alignItems="center"
                 >
-                    <SubPageHeader />
+                    {/* <SubPageHeader /> */}
                     <Grid
                         container
                         direction="row"

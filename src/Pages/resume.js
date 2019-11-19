@@ -20,7 +20,7 @@ class App extends Component {
                     justify="center"
                     alignItems="center"
                 >
-                    <SubPageHeader />
+                    {/* <SubPageHeader /> */}
                     <Resume />
                 </Grid>
             </div>
