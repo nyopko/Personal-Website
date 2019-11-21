@@ -53,8 +53,9 @@ class App extends Component {
                         <img className="aboutMePicBreak" src={typing} />
                         <div className="textSection">
                             <h3 className="bioBold"><b className="boldWordsTitle">Digital Marketing Fun</b></h3>
-                            <p className="bioText">I gravitated towards digital marketing because I’ve always enjoyed how creative the work could be, and how much technology and science it implemented. Plus, anything with the word “digital” in front of it just sounds cool. While <b className="boldWords">solving problems and implementing creative solutions </b> in both the medical equipment and entertainment industries (not quite peanut butter and jelly, but a good mix nonetheless) I realized how much more there is to the field and made the decision to dive in a little deeper.</p>
-                            <p className="bioText">I understood that my strengths were both <b className="boldWords">technology</b> and <b className="boldWords">communication</b>. As I said earlier, the former was from the technological ineptitude of my family, while the latter was developed due to the fact that my family is the loud Italian type and the only way I could get someone to pass the food was to speak up (see: yell).</p>
+                            <p className="bioText">In the first two years of my college career, my brain was filled with indecisive thoughts similar to how my stomach was filled with instant ramen. I was constantly asking myself things like: Did I make the right choice? Do I want to get into marketing? Why do I have to take a physics class for a <b className="boldWords">business degree</b>? But then as I started to get into my major-specific courses, it all started to make sense.</p>
+                            <p className="bioText">I gravitated towards digital marketing because I’ve always enjoyed how creative the work could be, and how much technology is implemented. Plus, anything with the word “digital” in front of it just sounds cool. After graduating college, while <b className="boldWords">solving problems and implementing creative solutions </b> in both the medical equipment and entertainment industries (not quite peanut butter and jelly, but a good mix nonetheless) I truly realized how much more there is to the field and made the decision to dive in a little deeper.</p>
+                            <p className="bioText">I understood that my strengths were both <b className="boldWords">technology</b> and <b className="boldWords">communication</b>. As I mentioned earlier, the former was from the technological ineptitude of my family, while the latter was developed due to the fact that my family is the loud Italian type and the only way I could get someone to pass the food was to speak up (see: yell).</p>
                             <p className="bioText">Which brings me to the next pillar in my professional life...</p> 
                         </div>
                         <img className="aboutMePicBreak" src={writing} />
@@ -76,9 +77,9 @@ class App extends Component {
                         </div>
 
                         <div className="textSection">
-                            <h3 className="bioBold"><b className="boldWordsTitle">To be continued!</b></h3>
+                            <h3 className="bioBold"><b className="boldWordsTitle">To Be Continued!</b></h3>
                             <p className="bioText">I created this site to help me <b className="boldWords">find new opportunities and expand my career</b>. I’ve included sections on each of my three major skills with examples of my work and an online resume for easy access. If you think I would fit in with your company or team, please feel free to <a href="/resume">contact me</a> anytime. I would love to talk more about any potential opportunities and share more experiences with you!</p>
-                            <p className="bioText"><b className="boldWords">- Nick Yopko</b></p> 
+                            <p className="bioText">- Nick Yopko</p> 
                         </div>
 
 

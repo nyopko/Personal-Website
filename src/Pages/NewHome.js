@@ -58,7 +58,7 @@ class NewHome extends Component {
                     justify="center"
                     alignItems="center"
                 >
-                    <SubPageHeader />
+                    {/* <SubPageHeader /> */}
                     <h1 className="homeText">Nick Yopko can help<br /> you with...</h1>
                     <h1 className="squareIdent">it all</h1>
                     <Grid
