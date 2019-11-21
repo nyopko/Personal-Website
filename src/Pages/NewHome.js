@@ -7,7 +7,7 @@ import $ from "jquery";
 
 // Content import
 import SubPageHeader from '../Components/AboutHeader';
-import Nav from "../Components/Nav";
+import HomeNav from "../Components/HomeNav";
 import SocialLinks from '../Components/SocialLinks';
 
 // icons import
@@ -51,13 +51,17 @@ class NewHome extends Component {
         return (
             <div className="NewHomePage">
                 <div id="backgroundContain">
-                <Nav />
+                <HomeNav />
                 <Grid
                     container
                     direction="column"
                     justify="center"
                     alignItems="center"
                 >
+                   <h1 id="mobileTitle">Nick Yopko</h1>
+                   <h3 id="mobileSubTitle">Web Development, Digital Marketing, Writing</h3>
+                   <a id="resumeButtonMobileHome" className="btn btn-dark" href="/about" role="button">See what's inside!</a>
+
                     {/* <SubPageHeader /> */}
                     <h1 className="homeText">Nick Yopko can help<br /> you with...</h1>
                     <h1 className="squareIdent">it all</h1>
@@ -77,6 +81,7 @@ class NewHome extends Component {
                         <a className="homeIconLinks" href="/writing"><h3><FaPencilAlt /><br />Writing</h3></a>  
                         </div>
                     </Grid>
+                    <h4 id="followFooter">Let's Connect!</h4>
                     <SocialLinks />
                     </Grid>
                     </div>    

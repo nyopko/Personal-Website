@@ -1,17 +1,23 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+
+import SocialLinks from "../SocialLinks";
 // import './style.css';
 
 function Resume() {
     return (
         <div id="resumePage">
+            <div id="linkButtonResume">
             <Grid
                 container
                 direction="column"
                 justify="space-around"
                 alignItems="center"
             >
+            <SocialLinks />
+                    <a id="resumeButtonDesktopRP" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Print/Download My Resume</a>
             </Grid>
+            </div>
             <div id="resumeWrapper">
                 <div id="resumeContentWrapper">
             <Grid
@@ -20,23 +26,21 @@ function Resume() {
                 justify="space-around"
                 alignItems="center"
             >
-                <a id="resumeButton" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button" >Download Resume</a>
                 <h2 id="resumeName">Nicholas Yopko</h2>
-                <a id="resumeButtonDesktop" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Download Resume</a>
                 <br />
-                <p id="resumeLinks">(440) 488-3436 &#8226; <a href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
+                <p id="resumeLinks">(440) 488-3436 &#8226; <a id="resumeEmails" href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a id="resumeEmails" href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
                 <hr />
-                <h4 class="resumeHeaders">CAREER OBJECTIVE</h4>
-                <p class="resumeDetails">Digital Marketing Specialist and Web Developer seeking opportunities to work on creative, high-tech marketing campaigns and related projects in the technology world.</p>
-                <h4 class="resumeHeaders">CORE QUALIFICATIONS</h4>
-                <p class="resumeDetails">
+                <h4 className="resumeHeaders">CAREER OBJECTIVE</h4>
+                <p className="resumeDetails">Digital Marketing Specialist and Web Developer seeking opportunities to work on creative, high-tech marketing campaigns and related projects in the technology world.</p>
+                <h4 className="resumeHeaders">CORE QUALIFICATIONS</h4>
+                <p className="resumeDetails">
                     <ul>
                         <li>Experience in Digital Marketing content planning, creation, analytics, and all major social media networks as well as full-stack coding/programming knowledge alongside Microsoft Office, Project Management Software, Content Management, and basic Adobe Creative Suite skills.</li>
                         <li>Professional writer and editor with over 350 articles published.</li>
                     </ul>
                 </p>
-                <h4 class="resumeHeaders">PROFESSIONAL EXPERIENCE</h4>
-                <p class="resumeDetails">
+                <h4 className="resumeHeaders">PROFESSIONAL EXPERIENCE</h4>
+                <p className="resumeDetails">
                 <b>CUMULUS ENTERTAINMENT</b>, Cleveland, OH
                 <br />
                 <i>Digital Marketing Manager, 03/2016-Present</i>
@@ -47,7 +51,7 @@ function Resume() {
                         <li>Helped Cumulus Entertainment become one of the premier dance music promoters in Ohio, and helped foster partnerships with some of the world’s biggest promoters and venues.</li>
                     </ul>
                 </p>
-                <p class="resumeDetails">
+                <p className="resumeDetails">
                 <b>EDM.COM</b>
                 <br />
                 <i>Associate Editor, 03/2017- Present</i>
@@ -59,7 +63,7 @@ function Resume() {
                         <li>Very skilled in identifying trends on social media and creating unique content aligned with the trending topics and buzzwords.</li>
                     </ul>
                 </p>
-                <p class="resumeDetails">
+                <p className="resumeDetails">
                 <b>NATIONAL BIOLOGICAL CORPORATION</b>, Cleveland OH
                 <br />
                 <i>Marketing Associate, 05/2017-02/2019</i>
@@ -72,15 +76,15 @@ function Resume() {
                     <li>Letter of Recommendation available upon request.</li>
                     </ul>
                 </p>
-                <h4 class="resumeHeaders">EDUCATION</h4>
-                <p class="resumeDetails">
+                <h4 className="resumeHeaders">EDUCATION</h4>
+                <p className="resumeDetails">
                 <b>Bachelor of Business Administration - Marketing</b> (2015)
                 <br />
                 <i>Kent State University, Kent, Ohio</i>
                 <br />
                 Graduated magna cum laude. Minor in Public Communication 
                 </p>
-                <p class="resumeDetails">
+                <p className="resumeDetails">
                 <b>Full-Stack Coding Bootcamp</b> (2019)
                 <br />
                 <i>Case Western Reserve University, Cleveland, Ohio</i>
@@ -90,8 +94,8 @@ function Resume() {
                 <li>Portfolio or examples available upon request.</li>    
                 </ul>
                 </p>
-                <h4 class="resumeHeaders">VOLUNTEERING</h4>
-                <p class="resumeDetails">
+                <h4 className="resumeHeaders">VOLUNTEERING</h4>
+                <p className="resumeDetails">
                 <b>NASA Space Apps</b> (2019)
                 <br />
                 <i>NASA Glenn Research Center, Cleveland, Ohio</i>
@@ -100,7 +104,7 @@ function Resume() {
                 <li>Volunteered at the K-12 student's day hackathon. Helped children operate 3D printers, write basic code, and served as an overall resource for any questions that arised. (Reference availble upon request.)</li>
                 </ul>
                 </p>
-                <p class="resumeDetails">
+                <p className="resumeDetails">
                 <b>Winter Clothing Drive</b>
                 <br />
                 <i>Kent, Ohio</i>

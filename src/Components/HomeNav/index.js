@@ -3,13 +3,13 @@ import React from 'react';
 // icons
 import {GiTacos} from "react-icons/gi";
 
-function Nav() {
+function HomeNav() {
     return (
-<nav id="navBar" class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav id="HomeNav" class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/"><GiTacos /> Nick Yopko</a>
+                <a class="nav-link" href="/"><GiTacos /> Nick Yopko</a>
             </li>
         </ul>
     </div>
@@ -21,19 +21,19 @@ function Nav() {
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/about">About</a>
+                <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/coding">Coding</a>
+                <a class="nav-link" href="/coding">Coding</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/marketing">Marketing</a>
+                <a class="nav-link" href="/marketing">Marketing</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/writing">Writing</a>
+                <a class="nav-link" href="/writing">Writing</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/resume">Contact/Resume</a>
+                <a class="nav-link" href="/resume">Contact/Resume</a>
             </li>
         </ul>
     </div>
@@ -42,4 +42,4 @@ function Nav() {
     );
 }
 
-export default Nav;
+export default HomeNav;

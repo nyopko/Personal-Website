@@ -27,7 +27,7 @@ class App extends Component {
                         justify="space-evenly"
                         alignItems="center"
                     >
-                        <div className="quoteContainer">
+                        <div className="quoteContainerWT">
                             <h1 className="quoteHeader">"Either write something worth reading or do something worth writing."</h1>
                             <p className="quoteAuthor"><b>- Benjamin Franklin</b></p>
                         </div>
