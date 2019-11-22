@@ -9,7 +9,7 @@ function Nav() {
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" id="navHover" href="/"><GiTacos /> Nick Yopko</a>
+                <a class="nav-link" id="navHover" href="/">Nick Yopko</a>
             </li>
         </ul>
     </div>
