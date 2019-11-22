@@ -519,7 +519,7 @@ hr {
   display: inline;
   text-align: center;
   font-size: 4em;
-  margin-top: 50%;
+  margin-top: 45%;
 }
 
 #mobileSubTitle{
@@ -585,7 +585,8 @@ hr {
 
 #resumeButtonMobile{
   display: block;
-  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 8%;
   background-color: #c3073f;
 }
 
@@ -596,7 +597,7 @@ hr {
 /* About Me Pages */
 
 .textSection{
-  width: 80%;
+  width: 90%;
 }
 
 #aboutMePic{
