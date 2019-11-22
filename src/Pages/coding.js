@@ -222,9 +222,9 @@ class App extends Component {
                                 <br />
                                 (Due to group time restrictions, this application is not currently mobile-friendly.)
                                 <br />
-                                <a className="codeLinks" href="https://space-education.herokuapp.com/">See for yourself!</a>
+                                <a className="codeLinks" href="https://space-education.herokuapp.com/">&#8226; See for yourself!</a>
                                 <br />
-                                <a className="codeLinks" href="https://github.com/nyopko/planet-app-fork">View Source on Github</a>
+                                <a className="codeLinks" href="https://github.com/nyopko/planet-app-fork">&#8226; View Source on Github</a>
                             </p>
                             <hr />
                             <div className="picCarousel">
@@ -266,9 +266,9 @@ class App extends Component {
                             A back-end focused application that provides a queryable database for firehouse management information. With the vast number of certifications each firefighter has, plus the enormous amount of equipment each firehouse holds and utilizes, there needed to be an easily-readable way to manage it. Using MySQL/Sequelize, Firefighter's Friend allows users to add crew or equipment to the database and then edit each item’s attributes and add or remove certifications as needed.
 
                                 <br />
-                                <a className="codeLinks" href="https://firefightersfriend.herokuapp.com/">See for yourself!</a>
+                                <a className="codeLinks" href="https://firefightersfriend.herokuapp.com/">&#8226; See for yourself!</a>
                                 <br />
-                                <a className="codeLinks" href="https://github.com/nyopko/SecondGroupProject">View Source on Github</a>
+                                <a className="codeLinks" href="https://github.com/nyopko/SecondGroupProject">&#8226; View Source on Github</a>
                             </p>
                     <hr />
 
@@ -294,9 +294,9 @@ class App extends Component {
                             </h5>
                             A simple, but fun application created in the early stages of my education that allows the user to receive album suggestions based on the weather in their selected location. Using both the OpenWeather and MusixMatch APIs, Audio Rain correlates the location’s weather to an album based on mood. The user will also receive similar artists to the one given, based on the album’s metadata and be able to see what album was recommended to the five most recent users prior to their search.
                                 <br />
-                                <a className="codeLinks" href="https://syddunlap.github.io/firstgroupproject/">See for yourself!</a>
+                                <a className="codeLinks" href="https://syddunlap.github.io/firstgroupproject/">&#8226; See for yourself!</a>
                                 <br />
-                                <a className="codeLinks" href="https://github.com/nyopko/firstgroupproject">View Source on Github</a>
+                                <a className="codeLinks" href="https://github.com/nyopko/firstgroupproject">&#8226; View Source on Github</a>
                             </p>
 
                     </Grid>

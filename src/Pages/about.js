@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 // Content import
 import SubPageHeader from '../Components/AboutHeader';
 import Nav from "../Components/Nav";
-import ProfilePic from "../Components/img/profilepic.jpg";
+import ProfilePic from "../Components/img/profilepicture.jpg";
 import codecomp from "../Components/img/codecomp.jpg";
 import writing from "../Components/img/writing.jpg";
 import typing from "../Components/img/typing.jpg";

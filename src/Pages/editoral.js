@@ -28,8 +28,8 @@ class App extends Component {
                         alignItems="center"
                     >
                         <div className="quoteContainerWT">
-                            <h1 className="quoteHeader">"Either write something worth reading or do something worth writing."</h1>
-                            <p className="quoteAuthor"><b>- Benjamin Franklin</b></p>
+                            <h1 className="quoteHeaderWT">"Either write something worth reading or do something worth writing."</h1>
+                            <p className="quoteAuthorWT"><b>- Benjamin Franklin</b></p>
                         </div>
                         <div className="textSection">
                             <h3 className="bioText"><b className="boldWordsTitle">Non-traditional Beginnings</b></h3>
@@ -59,7 +59,7 @@ class App extends Component {
                                 justify="center"
                                 alignItems="space-between"
                             >
-                                <a id="resumeButtonMobile" className="btn btn-dark" href="https://edm.com/author/nick-yopko" role="button">Read My Articles</a>
+                                <a id="articleButtonMobile" className="btn btn-dark" href="https://edm.com/author/nick-yopko" role="button">Read My Articles</a>
                                 <a id="resumeButtonMobile" className="btn btn-dark" href="https://drive.google.com/drive/folders/1gDotABOpLIwIJUlUGTrnee2HDiFat5Dk" role="button">Print/Download My Resume</a>
                             </Grid>
                         </div>
