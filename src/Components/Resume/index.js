@@ -28,7 +28,7 @@ function Resume() {
             >
                 <h2 id="resumeName">Nicholas Yopko</h2>
                 <br />
-                <p id="resumeLinks">(440) 488-3436 &#8226; <a id="resumeEmails" href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a id="resumeEmails" href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
+                <p id="resumeLinks"><a id="resumeEmails" href="mailto: nickyopko@gmail.com">nickyopko@gmail.com</a> &#8226; <a id="resumeEmails" href="https://www.linkedin.com/in/yopko/">linkedin.com/in/yopko</a> </p>
                 <hr />
                 <h4 className="resumeHeaders">CAREER OBJECTIVE</h4>
                 <p className="resumeDetails">Digital Marketing Specialist and Web Developer seeking opportunities to work on creative, high-tech marketing campaigns and related projects in the technology world.</p>
@@ -101,7 +101,7 @@ function Resume() {
                 <i>NASA Glenn Research Center, Cleveland, Ohio</i>
                 <br />
                 <ul>
-                <li>Volunteered at the K-12 student's day hackathon. Helped children operate 3D printers, write basic code, and served as an overall resource for any questions that arised. (Reference availble upon request.)</li>
+                <li>Volunteered at the K-12 student's day hackathon. Helped children operate 3D printers, write basic code, and served as an overall resource for any questions that arised. (Reference available upon request.)</li>
                 </ul>
                 </p>
                 <p className="resumeDetails">
@@ -110,7 +110,7 @@ function Resume() {
                 <i>Kent, Ohio</i>
                 <br />
                 <ul>
-                <li>Organized a volunteer coat drive at Kent State University and the surrounding area. Compltely self-funded by a team of just four students.</li>
+                <li>Organized a volunteer coat drive at Kent State University and the surrounding area. Completely self-funded by a team of just four students.</li>
                 <li>A massive success, we were able to donate many boxes of winter clothing to a local homeless shelter.</li>
                 <li>Assisted in everything from collection to social media advertising.</li>
                 </ul>
